@@ -581,6 +581,11 @@ li.location__list-item::before {
   color: #ffffff;
   border: none;
   cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
 }
 
 .location__list-btn-box {
