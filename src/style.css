@@ -260,7 +260,7 @@ body {
 
 .illustration {
   position: absolute;
-  top: 246px;
+  top: 244.3px;
   left: 55px;
   column-gap: 64px;
 }
@@ -284,6 +284,10 @@ img {
   display: block;
 }
 
+.propertis__features-columns-item p {
+  color: #8b9098;
+}
+
 .section-heading__title {
   display: flex;
   justify-content: center;
@@ -292,7 +296,7 @@ img {
 }
 
 .section-heading__title-subtitle {
-  color: #4d5461;
+  color: #8b9098;
   margin-bottom: 72px;
 
   font-weight: 400;
@@ -456,7 +460,7 @@ li.location__list-item::before {
   background-image: url(/src/image/popular.svg);
   background-repeat: no-repeat;
   /* left: -8px; */
-  transform: translateX(-8%);
+  transform: translateX(-9.6%);
   top: 184px;
   width: 113px;
   height: 40px;
@@ -483,6 +487,10 @@ li.location__list-item::before {
   letter-spacing: -1px;
 }
 
+.location__list-text-price {
+  height: 36px;
+}
+
 .location__list-text-price p {
   font-size: 16px;
   font-weight: 400;
@@ -507,7 +515,12 @@ li.location__list-item::before {
 .location__list-title {
   font-size: 24px;
   font-weight: 700;
+  padding-top: 4px;
+  padding-bottom: 8px;
+
   line-height: 36px;
+  letter-spacing: -0.01em;
+  text-align: left;
 }
 
 .location__list-adress {
